@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <style>
+        body { margin: 0; background: #000; color: #fff; font-family: 'Times New Roman', serif; display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center; overflow: hidden; }
+        video { position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.5; z-index: -1; }
+        .card { padding: 30px; background: rgba(0,0,0,0.5); border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); width: 85%; max-width: 400px; backdrop-filter: blur(5px); }
+        h1 { font-size: 24px; color: #ffb3c1; margin-bottom: 15px; letter-spacing: 2px; }
+        p { font-size: 17px; line-height: 1.6; font-style: italic; }
+        .heart { font-size: 40px; color: #ff4d6d; margin-top: 15px; animation: beat 1s infinite alternate; }
+        @keyframes beat { to { transform: scale(1.2); } }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop playsinline>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <div class="card">
+        <div class="heart">❤️</div>
+        <h1>I Am Truly Sorry</h1>
+        <p>"I know I've made mistakes, but my love for you never changes. Please forgive me, you mean the world to me."</p>
+        <p style="font-weight: bold; margin-top: 10px;">I Love You Always!</p>
+    </div>
+</body>
+</html>
